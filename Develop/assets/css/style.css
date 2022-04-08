@@ -11,6 +11,7 @@ body {
 
 
 /*Header and Navigation Start*/
+/*Condensed header css to cut down on div and to keep things DRY*/
 header {
     padding: 20px;
     font-family: 'Trebuchet Ms';
@@ -72,10 +73,10 @@ targeting all 3 cards by assigning article to all cards*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans Mt';/*removed unapplied fonts*/
     background-color: #0072bb;
     color: #ffffff;
-    width: 75%;
+    width:75%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -89,7 +90,6 @@ targeting all 3 cards by assigning article to all cards*/
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
  #right {
     float: right;
@@ -115,18 +115,17 @@ targeting all 3 cards by assigning article to all cards*/
 
 
 
-
-
 /*Moved benefits down so the sturcture would flow better*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
+    clear:both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    display: block;
 }
 
 .benefit-lead {
