@@ -8,6 +8,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+
 /*Header and Navigation Start*/
 header {
     padding: 20px;
@@ -24,7 +26,7 @@ header h1 {
     display: inline-block;
     font-size: 44px;
 }
-
+/*Removed .seo css and put in html*/
 header nav {
     padding-top: 15px;
     float: right;
@@ -61,10 +63,7 @@ header a {
    
 }
 
-
-
 /*removed float-right class and used label*/
-
 
 
 /*Replaced individual card CSS with singular class 
@@ -110,7 +109,7 @@ targeting all 3 cards by assigning article to all cards*/
     text-align: right;
     margin-right: 50px;
 }
-
+/*End of Hero Styling*/
 
 
 
