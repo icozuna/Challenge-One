@@ -60,9 +60,10 @@ header a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    
-   
+  
 }
+
+
 
 /*removed float-right class and used label*/
 
@@ -71,12 +72,11 @@ header a {
 targeting all 3 cards by assigning article to all cards*/
 .search-cards {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 15px;
     height: 300px;
     font-family: 'Gill Sans Mt';/*removed unapplied fonts*/
     background-color: #0072bb;
     color: #ffffff;
-    width:75%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -109,10 +109,15 @@ targeting all 3 cards by assigning article to all cards*/
     text-align: right;
     margin-right: 50px;
 }
+
 /*End of Hero Styling*/
 
 
-
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
 
 /*Moved benefits down so the sturcture would flow better*/
