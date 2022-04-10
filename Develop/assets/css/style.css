@@ -78,13 +78,14 @@ header a {
 targeting all 3 cards by assigning article to all cards*/
 .search-cards {
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 50px;
     height: 300px;
     font-family: 'Gill Sans Mt';/*removed unapplied fonts*/
     background-color: var(--primary-color);
     color: var(--secondary-color);
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 
