@@ -8,7 +8,7 @@ A website that offers social media marketing services.
 * CSS
 
 ## Website
-https://icozuna.github.io/run-buddy/
+https://icozuna.github.io/Challenge-One/
 
 ## Contribution
 Made with ❤️ by Horiseon
