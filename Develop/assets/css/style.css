@@ -5,6 +5,12 @@
     
 }
 
+:root {/*created universal class for colors*/
+    --primary-color: #0072bb;
+    --secondary-color: #ffffff;
+}
+
+
 body {
     background-color: #d9dcd6;
 }
@@ -16,7 +22,7 @@ header {
     padding: 20px;
     font-family: 'Trebuchet Ms';
     background-color: #2a607c;
-    color: #ffffff;
+    color: var(--secondary-color);
     font-size: 22px;
     list-style: none;
     float:none;
@@ -44,7 +50,7 @@ header ul li {
 
 
 header a {
-    color: #ffffff;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 /*Header and Navigation End*/
@@ -75,8 +81,8 @@ targeting all 3 cards by assigning article to all cards*/
     padding: 15px;
     height: 300px;
     font-family: 'Gill Sans Mt';/*removed unapplied fonts*/
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     display: inline-block;
     margin-left: 20px;
 }
@@ -128,54 +134,24 @@ targeting all 3 cards by assigning article to all cards*/
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans Mt'; /*redueced font family*/
     background-color: #2589bd;
     display: block;
 }
 
-.benefit-lead {
+.benefit-options {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--secondary-color);
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*implemented DRY..replaced individual classes with universal class.
+replaced individual heading and img settings with universal classes. */
+.benefit-options h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-options img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -184,7 +160,7 @@ targeting all 3 cards by assigning article to all cards*/
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:  'Lucida Sans Unicode'; /*Reduced font choices*/
     text-align: center;
 }
 
