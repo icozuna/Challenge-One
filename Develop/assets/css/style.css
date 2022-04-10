@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+:root {/*created universal class for colors*/
+    --primary-color: #0072bb;
+    --secondary-color: #ffffff;
+}
+
+
+body {
+    background-color: #d9dcd6;
+}
+
+
+/*Header and Navigation Start*/
+/*Condensed header css to cut down on div and to keep things DRY*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet Ms';
+    background-color: #2a607c;
+    color: var(--secondary-color);
+    font-size: 22px;
+    list-style: none;
+    float:none;
+    padding-top: 15px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 44px;
+}
+/*Removed .seo css and put in html*/
+header nav {
+    padding-top: 15px;
+    float: right;
+    font-family: 'Gill Sans MT';
+    font-size: 22px;
+    list-style: none;
+}
+
+
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+header a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+/*Header and Navigation End*/
+
+
+
+/*Hero Style Start*/
+
+.hero {
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+  
+}
+
+
+
+/*removed float-right class and used label*/
+
+
+/*Replaced individual card CSS with singular class 
+targeting all 3 cards by assigning article to all cards*/
+.search-cards {
+    margin-bottom: 20px;
+    padding: 15px;
+    height: 300px;
+    font-family: 'Gill Sans Mt';/*removed unapplied fonts*/
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.search-cards img {
+    max-height: 200px;
+}
+
+.search-cards h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+ #right {
+    float: right;
+    margin: 0 0 0 15px;
+    
+}
+
+#left {
+    float: left;
+    margin-right: 0 15px 0 0;
+    text-align: right;
+    padding-right: 20px;/*added padding for space btwn img and text*/
+
+}
+
+.text-right {
+    text-align: right;
+    margin-right: 50px;
+}
+
+/*End of Hero Styling*/
+
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/*Moved benefits down so the sturcture would flow better*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear:both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans Mt'; /*redueced font family*/
+    background-color: #2589bd;
+    display: block;
+}
+
+.benefit-options {
+    margin-bottom: 32px;
+    color: var(--secondary-color);
+}
+
+/*implemented DRY..replaced individual classes with universal class.
+replaced individual heading and img settings with universal classes. */
+.benefit-options h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-options img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family:  'Lucida Sans Unicode'; /*Reduced font choices*/
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
